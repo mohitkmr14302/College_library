@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <p class="item" id="tittle"> KNOWLEDGE LIBRARY </p>
+        <a class="item" id="home" href="#">HOME</a>
+        <div class="search">
+            <input type="text" name="" id="searchbar" placeholder="Search">
+        </div>
+        <button class="searchbtn">Search</button>
+    </nav>
+    <hr>
+    <div class="container">
+        <h2 calss="heading1">Welcome To Knowledge Library</h2>
+        <hr>
+        <form id="library">
+            <div class="inputtxt"><label for="bookname">Name:</label><input id="bookname" type="text" name="" class="input" placeholder="Book Name">
+            </div>
+            <div class="inputtxt"> <label for="author">Author:</label> <input id="author" type="text" name="" class="input" placeholder="Author">
+        </form>
+    </div>
+    <div class="radiodiv">
+        Type: <div class="radio"><label for="technical">Technical</label> <input id="technical" type="radio" name="key" value="Technical"> </div>
+        <br>
+        <div class="radio"> <label for="software">Software</label> <input type="radio" name="key" id="software" value="Software"> </div>
+        <br>
+        <div class="radio"><label for="hardware">Hardware</label> <input id="hardware" type="radio" name="key" value="hardware"> </div>
+    </div>
+    <!-- <input type="submit" class="btn" value="Add book"> -->
+    <button type="submit" class="btn" id="addbook"> Add Book</button>
+    <!-- <button type="submit" class="btn" id="addbook"> Add Book</button> -->
+    </form>
+    <h2 class="heading1">Your books</h2>
+    <div style="overflow-x:auto;">
+        <table id="table">
+            <thead>
+
+                <tr>
+                    <!-- <th>Number</th> -->
+                    <th>Book</th>
+                    <th>Author</th>
+                    <th>Type</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody"></tbody>
+            
+        </table>
+    </div>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</div>
+
+</html>

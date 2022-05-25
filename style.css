@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar {
+    height: 38px;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+}
+
+ #tittle { 
+    display: inline;
+} 
+
+#home {
+    color: white;
+    text-decoration: none;
+}
+
+.item {
+    font-size: 20px;
+    margin: 1px 11px;
+    position: relative;
+    top: 7px;
+
+}
+
+.search {
+
+    /* display: inline-block; */
+    float: right;
+    position: absolute;
+
+    top: 2px;
+    /* text-align: left; */
+    right: 113px;
+}
+
+#home:hover {
+    color: gray;
+}
+
+.search input {
+    border-radius: 4px;
+    background-color: white;
+    width: 100px;
+    height: 10px;
+    padding: 11px 9px;
+    border: 2px solid gray;
+}
+
+.search input:hover {
+    border: 2px solid white;
+}
+
+.searchbtn {
+    background-color: black;
+    color: rgb(94, 199, 134);
+    font-size: 13px;
+    position: absolute;
+    right: 15px;
+    top: 3px;
+    /* height: 10px; */
+    padding: 7px 20px;
+    border: 2px solid rgb(94, 199, 134);
+    
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.searchbtn:hover {
+    background-color: rgb(94, 199, 134);
+    ;
+    color: black;
+    border: 2px solid rgba(43, 37, 37, 0.26);
+}
+.container {
+    position: relative;
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: 5px auto;
+    height: 500px;
+}
+.heading1 {
+    margin-top: 12px;
+    margin-bottom: 2px;
+}
+.inputtxt{
+   /* background-color: violet; */
+   margin: 10px 10px;
+   height:  32px;
+}
+.input{
+    position: absolute;
+    /* margin: 10px 10px; */
+    height: 20px;
+    width:  90%;
+    right: 0px;
+}
+
+.radiodiv{
+margin: 10px 10px;
+width: 96%;
+height: 70px;
+/* border: 1px solid red; */
+}
+.radio{
+    display: inline-block;
+    /* border: 1px solid blue; */
+    position: absolute;
+    right: 84%;
+}
+
+.btn {
+    font-size: 16px;
+    margin: 5px 10px;
+    height: 35px;
+    width: 90px;
+    background-color: rgb(108, 108, 202);
+    border-radius: 4px;
+    color: white;
+}
+
+#table {
+    margin-top: 10px; 
+    border: 2px solid gray;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  #table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  #table th {
+    background-color: rgb(143, 155, 125);
+  }
+
+  #table tr:nth-child(even) {
+    background-color:rgb(202, 187, 187);
+  }
